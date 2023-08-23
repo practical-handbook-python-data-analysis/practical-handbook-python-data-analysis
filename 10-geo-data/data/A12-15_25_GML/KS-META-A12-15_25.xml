@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="shift_jis"?>
+<MD_Metadata xsi:schemaLocation="http://zgate.gsi.go.jp/ch/jmp/ http://zgate.gsi.go.jp/ch/jmp/JMP20.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://zgate.gsi.go.jp/ch/jmp/" xmlns:jmp20="http://zgate.gsi.go.jp/ch/jmp/">
+  <identificationInfo>
+    <MD_DataIdentification>
+      <citation>
+<title>国土数値情報 農業地域 滋賀県 A12-15_25</title>
+        <date>
+<date>2016-02-29</date>
+          <dateType>001</dateType>
+        </date>
+      </citation>
+      <abstract>位置座標の付加された農業地域データ</abstract>
+      <purpose>国土数値情報は、国土計画の策定や実施の支援のために作られたものであるが、各分野でGISにて広く利用されることも想定している。</purpose>
+      <status>001</status>
+      <pointOfContact>
+        <organisationName>国土交通省国土政策局国土情報課</organisationName>
+        <contactInfo>
+          <phone>
+            <voice>03-5253-8111</voice>
+            <facsimile>03-5253-1569</facsimile>
+          </phone>
+          <address>
+            <deliveryPoint>霞が関二丁目1-2</deliveryPoint>
+            <city>千代田区</city>
+            <administrativeArea>東京都</administrativeArea>
+            <postalCode>100-8918</postalCode>
+            <country>jpn</country>
+            <electronicMailAddress>nsdijp@mlit.go.jp</electronicMailAddress>
+          </address>
+          <onlineResource>
+            <linkage>http://nlftp.mlit.go.jp/ksj/</linkage>
+            <description>国土数値情報を無償で一般公開しています。</description>
+          </onlineResource>
+          <hoursOfService>メールによる問い合わせは24時間受け付けています。</hoursOfService>
+          <contactInstructions>国土数値情報に関するお問い合わせは、なるべくメールでお願いします。</contactInstructions>
+        </contactInfo>
+        <role>002</role>
+      </pointOfContact>
+      <resourceConstraints>
+        <MD_Constraints>
+          <useLimitation>利用に当たっての制限は、国土情報利用約款を参照してください。</useLimitation>
+        </MD_Constraints>
+      </resourceConstraints>
+      <descriptiveKeywords>
+        <MD_Keywords>
+          <keyword>農業地域</keyword>
+        </MD_Keywords>
+        <MD_Keywords>
+          <keyword>指定地域</keyword>
+        </MD_Keywords>
+        <MD_Keywords>
+          <keyword>国土数値情報</keyword>
+        </MD_Keywords>
+      </descriptiveKeywords>
+      <spatialRepresentationType>001</spatialRepresentationType>
+      <spatialResolution>
+        <equivalentScale>
+          <denominator>25000</denominator>
+        </equivalentScale>
+      </spatialResolution>
+      <language>
+        <isoCode>jpn</isoCode>
+      </language>
+      <characterSet>004</characterSet>
+      <topicCategory>013</topicCategory>
+      <extent>
+        <geographicElement>
+          <EX_GeographicDescription>
+            <geographicIdentifier>
+<code>滋賀県</code>
+            </geographicIdentifier>
+          </EX_GeographicDescription>
+        </geographicElement>
+      </extent>
+    </MD_DataIdentification>
+  </identificationInfo>
+  <dataQualityInfo>
+    <DQ_DataQuality>
+      <scope>
+        <level>005</level>
+      </scope>
+      <report>
+        <DQ_Element>
+          <evaluationMethodDescription>農業地域，農用地区域のポリゴンと，土地利用基本計画図（農業地域については，土地利用基本計画の変更に伴う国土交通大臣との協議資料の変更区域図に記載された変更内容を含める）をプロット出力し，目視にて過剰データがないことを評価する。（過剰データが０箇所であれば“合格”，それ以外は“不合格”）</evaluationMethodDescription>
+          <typeOfQualityEvaluation>001</typeOfQualityEvaluation>
+          <result>
+            <DQ_ConformanceResult>
+              <specification>
+                <title>国土数値情報（自然公園地域）製品仕様書　第3.1版</title>
+                <date>
+<date>2016-02-29</date>
+                  <dateType>001</dateType>
+                </date>
+              </specification>
+              <explanation>過剰データ数0個を合格とする。</explanation>
+              <pass>1</pass>
+            </DQ_ConformanceResult>
+          </result>
+        </DQ_Element>
+        <DQ_Element>
+          <evaluationMethodDescription>農業地域，農用地区域のポリゴンと，土地利用基本計画図（農業地域については，土地利用基本計画の変更に伴う国土交通大臣との協議資料の変更区域図に記載された変更内容を含める）をプロット出力し，目視にて漏れデータがないことを評価する。（漏れデータが０箇所であれば“合格”，それ以外は“不合格”）</evaluationMethodDescription>
+          <typeOfQualityEvaluation>002</typeOfQualityEvaluation>
+          <result>
+            <DQ_ConformanceResult>
+              <specification>
+                <title>国土数値情報（農業地域）製品仕様書　第3.1版</title>
+                <date>
+<date>2016-02-29</date>
+                  <dateType>001</dateType>
+                </date>
+              </specification>
+              <explanation>データの漏れの数0個を合格とする。</explanation>
+              <pass>1</pass>
+            </DQ_ConformanceResult>
+          </result>
+        </DQ_Element>
+        <DQ_Element>
+          <evaluationMethodDescription>応用スキーマを表現するＸＭＬスキーマとデータに矛盾がないか，検査プログラム（ＸＭＬパーサーなど）によって検査する。一つ以上のエラーがあれば，“不合格”とする。</evaluationMethodDescription>
+          <typeOfQualityEvaluation>003</typeOfQualityEvaluation>
+          <result>
+            <DQ_ConformanceResult>
+              <specification>
+                <title>国土数値情報（農業地域）製品仕様書　第3.1版</title>
+                <date>
+<date>2016-02-29</date>
+                  <dateType>001</dateType>
+                </date>
+              </specification>
+              <explanation>誤率0％を合格とする。</explanation>
+              <pass>1</pass>
+            </DQ_ConformanceResult>
+          </result>
+        </DQ_Element>
+        <DQ_Element>
+          <evaluationMethodDescription>都道府県コードが都道府県コードリスト，支庁区分コードが支庁区分コードリスト，農業地域区分コードが農業地域区分コードリストに存在するコードであるか，検査プログラムによって検査する。一つ以上のエラーがあれば，“不合格”とする。</evaluationMethodDescription>
+          <typeOfQualityEvaluation>004</typeOfQualityEvaluation>
+          <result>
+            <DQ_ConformanceResult>
+              <specification>
+                <title>国土数値情報（農業地域）製品仕様書　第3.1版</title>
+                <date>
+<date>2016-02-29</date>
+                  <dateType>001</dateType>
+                </date>
+              </specification>
+              <explanation>誤率0％を合格とする。</explanation>
+              <pass>1</pass>
+            </DQ_ConformanceResult>
+          </result>
+        </DQ_Element>
+        <DQ_Element>
+          <evaluationMethodDescription>データ集合のファイルの書式がＸＭＬの文法（構文）に適合しているか，検査プログラム（ＸＭＬパーサなど）によって評価する。一つ以上のエラーがあれば，“不合格”とする。 </evaluationMethodDescription>
+          <typeOfQualityEvaluation>005</typeOfQualityEvaluation>
+          <result>
+            <DQ_ConformanceResult>
+              <specification>
+                <title>国土数値情報（農業地域）製品仕様書　第3.1版</title>
+                <date>
+                  <date>2011-03-16</date>
+                  <dateType>001</dateType>
+                </date>
+              </specification>
+              <explanation>誤率0％を合格とする。</explanation>
+              <pass>1</pass>
+            </DQ_ConformanceResult>
+          </result>
+        </DQ_Element>
+        <DQ_Element>
+          <evaluationMethodDescription>農業地域，農用地区域のポリゴンどうしの重複がないことを確認する。また，同一農業地域区分コードのポリゴン間の重複がないことを確認する。農業地域の境界線の誤差の許容範囲（1/50000で1.0mm 以内）を超えるポリゴン重複をＧＩＳ画面上で確認し，一つ以上のエラー（重複）があれば，“不合格”とする。</evaluationMethodDescription>
+          <typeOfQualityEvaluation>006</typeOfQualityEvaluation>
+          <result>
+            <DQ_ConformanceResult>
+              <specification>
+                <title>国土数値情報（農業地域）製品仕様書　第3.1版</title>
+                <date>
+<date>2016-02-29</date>
+                  <dateType>001</dateType>
+                </date>
+              </specification>
+              <explanation>誤率0％を合格とする。</explanation>
+              <pass>1</pass>
+            </DQ_ConformanceResult>
+          </result>
+        </DQ_Element>
+        <DQ_Element>
+          <evaluationMethodDescription>農業地域，農用地区域のポリゴン，土地利用基本計画図（農業地域については，土地利用基本計画の変更に伴う国土交通大臣との協議資料の変更区域図に記載された変更内容を含める），国土数値情報行政区域界データをプロット出力し，目視にて空間属性を構成する各点及びアークの図上誤差が以下の許容値を越えていないことを評価する。</evaluationMethodDescription>
+          <typeOfQualityEvaluation>007</typeOfQualityEvaluation>
+          <result>
+            <DQ_ConformanceResult>
+              <specification>
+                <title>国土数値情報（農業地域）製品仕様書　第3.1版</title>
+                <date>
+<date>2016-02-29</date>
+                  <dateType>001</dateType>
+                </date>
+              </specification>
+              <explanation>誤差の許容範囲：1/50000 地図上0.1mm 以内（但し，指定地域の境界が都道府県界と一致する場合のみ適用する。）</explanation>
+              <pass>1</pass>
+            </DQ_ConformanceResult>
+          </result>
+        </DQ_Element>
+        <DQ_Element>
+          <evaluationMethodDescription>農業地域，農用地区域とをプロット出力し，目視にて空間属性を構成する各点が重ならないことを確認する。一つ以上のエラーがあれば，”不合格”とする。</evaluationMethodDescription>
+          <typeOfQualityEvaluation>009</typeOfQualityEvaluation>
+          <result>
+            <DQ_ConformanceResult>
+              <specification>
+                <title>国土数値情報（農業地域）製品仕様書　第3.1版</title>
+                <date>
+<date>2016-02-29</date>
+                  <dateType>001</dateType>
+                </date>
+              </specification>
+              <explanation>誤率0％を合格とする。</explanation>
+              <pass>1</pass>
+            </DQ_ConformanceResult>
+          </result>
+        </DQ_Element>
+        <DQ_Element>
+          <evaluationMethodDescription>検査プログラムによって，土地利用基本計画図（LUCKY）データとの比較により，農業地域区分コードの分類が正しいことを評価する。一つ以上のエラーがあれば，“不合格”とする。</evaluationMethodDescription>
+          <typeOfQualityEvaluation>013</typeOfQualityEvaluation>
+          <result>
+            <DQ_ConformanceResult>
+              <specification>
+                <title>国土数値情報（農業地域）製品仕様書　第3.1版</title>
+                <date>
+<date>2016-02-29</date>
+                  <dateType>001</dateType>
+                </date>
+              </specification>
+              <explanation>誤率0％を合格とする。</explanation>
+              <pass>1</pass>
+            </DQ_ConformanceResult>
+          </result>
+        </DQ_Element>
+        <DQ_Element>
+          <evaluationMethodDescription>検査プログラムによって，土地利用基本計画図（LUCKY）データとの比較により，都道府県コード，支庁区分コード，農業地域区分コードが正しくセットされていることを評価する。一つ以上のエラーがあれば，“不合格”とする。</evaluationMethodDescription>
+          <typeOfQualityEvaluation>014</typeOfQualityEvaluation>
+          <result>
+            <DQ_ConformanceResult>
+              <specification>
+                <title>国土数値情報（農業地域）製品仕様書　第3.1版</title>
+                <date>
+<date>2016-02-29</date>
+                  <dateType>001</dateType>
+                </date>
+              </specification>
+              <explanation>誤率0％を合格とする。</explanation>
+              <pass>1</pass>
+            </DQ_ConformanceResult>
+          </result>
+        </DQ_Element>
+      </report>
+    </DQ_DataQuality>
+  </dataQualityInfo>
+  <distributionInfo>
+    <MD_Distribution>
+      <distributionFormat>
+        <MD_Format>
+          <name>XML</name>
+          <version>1.0</version>
+        </MD_Format>
+      </distributionFormat>
+      <transferOptions>
+        <MD_DigitalTransferOptions>
+          <onLine>
+            <linkage>http://nlftp.mlit.go.jp/ksj/</linkage>
+            <description>国土数値情報を無償で一般公開しています。</description>
+          </onLine>
+        </MD_DigitalTransferOptions>
+      </transferOptions>
+    </MD_Distribution>
+  </distributionInfo>
+  <referenceSystemInfo>
+    <MD_ReferenceSystem>
+      <referenceSystemIdentifier>
+        <code>JGD2000 / (B, L)</code>
+      </referenceSystemIdentifier>
+    </MD_ReferenceSystem>
+  </referenceSystemInfo>
+  <fileIdentifier>KS-META-A12-15_01.xml</fileIdentifier>
+  <language>
+    <isoCode>jpn</isoCode>
+  </language>
+  <characterSet>023</characterSet>
+  <hierarchyLevel>005</hierarchyLevel>
+  <contact>
+    <organisationName>国土交通省国土政策局国土情報課</organisationName>
+    <contactInfo>
+      <phone>
+        <voice>03-5253-8111</voice>
+        <facsimile>03-5253-1569</facsimile>
+      </phone>
+      <address>
+        <deliveryPoint>霞が関二丁目1-2</deliveryPoint>
+        <city>千代田区</city>
+        <administrativeArea>東京都</administrativeArea>
+        <postalCode>100-8918</postalCode>
+        <country>jpn</country>
+        <electronicMailAddress>nsdijp@mlit.go.jp</electronicMailAddress>
+      </address>
+      <onlineResource>
+        <linkage>http://nlftp.mlit.go.jp/ksj/</linkage>
+        <description>国土数値情報を無償で一般公開しています。</description>
+      </onlineResource>
+      <hoursOfService>メールによる問い合わせは24時間受け付けています。</hoursOfService>
+      <contactInstructions>国土数値情報に関するお問い合わせは、なるべくメールでお願いします。</contactInstructions>
+    </contactInfo>
+    <role>007</role>
+  </contact>
+<dateStamp>2016-02-29</dateStamp>
+  <metadataStandardName>JMP</metadataStandardName>
+  <metadataStandardVersion>2.0</metadataStandardVersion>
+</MD_Metadata>

@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>上野駅周辺飲食店</name>
+    <description/>
+    <Style id="icon-1899-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>ラーメン屋</name>
+      <Placemark>
+        <name>東京じゃんがら ecute上野店</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            139.7771312,35.7140434,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>博多ラーメン 長浜や 上野店</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            139.7775269,35.7124554,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[T'sたんたん エキュート上野店]]></name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            139.7771408,35.7140681,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>鯛塩そば灯花 アトレ上野店</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            139.7770178,35.7133078,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>横浜家系ラーメン 壱角家 上野店</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            139.7778759,35.7123833,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>麺屋 天王</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            139.7797678,35.7141222,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>一蘭 アトレ上野山下口店</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            139.7752174,35.7124196,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>らーめん花の華 上野店</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            139.7788319,35.7121706,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>六厘舎 上野店</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            139.7750484,35.7121834,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>横浜家系ラーメン希家 上野店</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            139.7786098,35.7118269,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>カレー屋</name>
+      <Placemark>
+        <name>シターラ ダイナー エキュート上野店（SITAARA DINER）</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            139.776792,35.7132653,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>マイカリー食堂 上野店</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            139.778374,35.712958,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[インド・ネパール料理&バー ナマステ上野キッチン（Namaste UENO Kitchen）]]></name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            139.779736,35.714079,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>カレー専門店 クラウンエース 上野アメ横店</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            139.7750854,35.7112609,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>スルタン 東上野店</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            139.7828001,35.7155242,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Re Nepaka(ネパカ)上野店</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            139.7802984,35.7107611,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>カレーの店 サカエヤ</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            139.7800917,35.7073677,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>カレー clover(くろーばー)</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            139.7709038,35.7062837,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ゴーゴーカレー 上野御徒町店</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            139.7754455,35.708453,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ラッフルズカリー</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            139.778286,35.7073153,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>焼肉屋</name>
+      <Placemark>
+        <name>ブ厚い焼肉 焼肉フジ 上野駅前本店</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            139.7790501,35.7138809,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>焼肉 USHIHACHI 上野店</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            139.777376,35.712613,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>絵のある街 上野店</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            139.7755379,35.7109052,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>焼肉陽山道 上野駅前店</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            139.7755765,35.7098862,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>和家 NAGOMIYA 上野店</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            139.7751193,35.7107406,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>焼肉ホルモン本舗 炎 上野駅前店</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            139.7762069,35.7112493,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>肉の街 上野本店</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            139.775175,35.711006,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>太昌園上野駅前店</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            139.7754445,35.7104037,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>焼肉ひだり</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            139.7810698,35.711169,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>土古里 上野バンブーガーデン店</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            139.7745426,35.7124233,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
